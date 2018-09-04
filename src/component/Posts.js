@@ -1,22 +1,16 @@
 import React, {Component} from 'react';
+import {connect} from 'react-redux';
+import propTypes from 'prop-types';
+import {fetchPosts} from "../actions/postActions";
 
-export default class Posts extends Component {
-
-    constructor(props) {
-        super(props);
-        this.state = {
-            posts: []
-        }
-    }
+class Posts extends Component {
 
     componentWillMount() {
-        fetch("https://jsonplaceholder.typicode.com/posts")
-            .then(res => res.json())
-            .then(data => this.setState({posts: data}));
+        this.props.fetchPosts();
     }
 
     render() {
-        const postItems = this.state.posts.map(post => {
+        const postItems = this.props.posts.map(post => {
             return (
                 <div key={post.id}>
                     <h3>{post.title}</h3>
@@ -32,3 +26,14 @@ export default class Posts extends Component {
         )
     }
 }
+
+Posts.propTypes = {
+    fetchPosts : propTypes.func.isRequired,
+    posts: propTypes.array.isRequired
+};
+
+const mapStateTopProps = state => ({
+    posts: state.posts.items
+});
+
+export default connect(mapStateTopProps, {fetchPosts})(Posts);
