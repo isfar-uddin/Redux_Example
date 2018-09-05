@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9982a0b-e9f9-43f3-afa6-33437d835208" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/actions/postActions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Postform.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Postform.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Posts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Posts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/postReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/postReducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store.js" afterDir="false" />
-    </list>
+    <list default="true" id="c9982a0b-e9f9-43f3-afa6-33437d835208" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -95,8 +89,8 @@
       <file leaf-file-name="Postform.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/component/Postform.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="753">
-              <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+            <state relative-caret-position="582">
+              <caret line="53" column="5" lean-forward="true" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -217,16 +211,15 @@
       <option name="presentableId" value="Default" />
       <updated>1535980607069</updated>
       <workItem from="1535980608669" duration="1312000" />
-      <workItem from="1536042185249" duration="15222000" />
+      <workItem from="1536042185249" duration="15546000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16534000" />
+    <option name="totallyTimeSpent" value="16858000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1035" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24986821" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -352,8 +345,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/component/Postform.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="753">
-          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+        <state relative-caret-position="582">
+          <caret line="53" column="5" lean-forward="true" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
